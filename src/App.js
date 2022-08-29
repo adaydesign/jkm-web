@@ -1,10 +1,12 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import DefaultLayout from './layouts/DefaultLayout';
+import { theme } from './utils/theme'
 
 function App() {
+
   return (
-    <ChakraProvider>
-      <DefaultLayout />
+    <ChakraProvider theme={theme}>
+        <DefaultLayout />
     </ChakraProvider>
   );
 }

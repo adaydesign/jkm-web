@@ -1,8 +1,8 @@
 import { Flex } from "@chakra-ui/react"
 
-const Body = ({ children }) => {
+const Body = ({ children, ...rest }) => {
     return (
-        <Flex w="full" minH="80vh" bgColor="#FBF7F0" p={6}>
+        <Flex w="full" minH="80vh" bgColor="palette.body" p={6} {...rest}>
             {children}
         </Flex>
     )

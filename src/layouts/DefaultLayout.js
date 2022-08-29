@@ -7,7 +7,7 @@ const DefaultLayout = () => {
     <Flex w="full" direction="column">
         <Header />
         <SubHeader />
-        <Body>
+        <Body mt="40px">
             <DefaultRouter />
         </Body>
         <Footer />

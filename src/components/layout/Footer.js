@@ -5,7 +5,7 @@ import { BsFillJournalBookmarkFill } from "react-icons/bs"
 // D9E4DD
 const Footer = () => {
   return (
-    <Flex w="full" bgColor="#D9E4DD" justify="center" align="center" py={3}>
+    <Flex w="full" color="white" bgColor="palette.footer" justify="center" align="center" py={3}>
       <Icon as={BsFillJournalBookmarkFill} mr={3}/>
       <Text fontSize='md'>{APP_NAME} เวอร์ชัน {APP_VERSION}</Text>
     </Flex>
